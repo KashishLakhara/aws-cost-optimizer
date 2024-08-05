@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+lambda_function.zip
+.terraform.lock.hcl
+
 # C extensions
 *.so
 
